@@ -17,7 +17,7 @@ const SITE_CONFIG = {
     bedrockName: "EtherealPE"
   },
   links: {
-    discord: "https://discord.gg/Z2ZsbvZkbc",
+    discord: "https://discord.etherealpe.com",
     store: "#",
     vote: "https://vote.etherealpe.com"
   },
