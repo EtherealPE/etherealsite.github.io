@@ -1,5 +1,4 @@
 /* EtherealPE Portal Main JS
-   Edit SITE_CONFIG for IPs, ports, voting links, Discord, etc.
 */
 
 const SITE_CONFIG = {
