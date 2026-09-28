@@ -5,13 +5,13 @@
 const SITE_CONFIG = {
   brand: "EtherealPE",
   accessGate: {
-    enabled: true,
+    enabled: false,
     passphraseHash: "ee961d61958c505ea7805c231512dadb1b867344b19447449f5fbb63fa7512be",
     sessionKey: "etherealpe_access_unlocked"
   },
   server: {
     javaAddress: "glacia.etherealpe.com",
-    javaPort: "", 
+    javaPort: "25503", 
     bedrockAddress: "glacia.etherealpe.com",
     bedrockPort: "19132",
     bedrockName: "EtherealPE"
@@ -51,10 +51,7 @@ const SITE_CONFIG = {
     }
   ],
   votes: [
-    { name: "Vote Site 1", url: "https://minecraftpocket-servers.com/server/133199/", reward: "Vote Lootbox + $100,000 in-game money" },
-    { name: "Vote Site 2", url: "https://example.com/vote-2", reward: "Vote Lootbox + $100,000 in-game money" },
-    { name: "Vote Site 3", url: "https://example.com/vote-3", reward: "Vote Lootbox + $100,000 in-game money" },
-    { name: "Vote Site 4", url: "https://example.com/vote-4", reward: "Vote Lootbox + $100,000 in-game money" }
+    { name: "Glacia voting page", url: "https://vote.etherealpe.com", reward: "View voting sites and rewards" }
   ]
 };
 
